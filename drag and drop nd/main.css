@@ -1,0 +1,93 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: lightgray;
+}
+
+#slots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2px 0;
+}
+
+#slots .slot {
+  background-color: #fff;
+  width: 23%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+          box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+}
+
+#slots .slot h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px lightgray;
+}
+
+#slots .slot .inner_slot {
+  background-color: rgba(9, 30, 66, 0.25);
+  height: 300px;
+  overflow-y: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#slots .slot .task {
+  background-color: #fff;
+  padding: 10px 5px 8px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+#slots .slot .task h4 {
+  margin: 0;
+}
+
+.task_button, .trinti {
+  margin: 5px;
+  background-color: orangered;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  outline: 0;
+  border: 0;
+  -webkit-box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+          box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+}
+
+.redaguoti {
+  margin: 5px;
+  background-color: green;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  outline: 0;
+  border: 0;
+  -webkit-box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+          box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+}
+
+.kitasModalas {
+  margin: auto;
+  top: 0;
+  left: 0;
+  width: 300px;
+  display: none;
+}
+
+.kitasModalas.modalas-aktyvus {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */

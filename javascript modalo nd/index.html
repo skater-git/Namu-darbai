@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript modalo nd</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form id="forma">
+    <label for="Data">Data:</label>
+    <input id="inputas" type="text" value="">
+    <br>
+    <label for="Numeris">Numeris:</label>
+    <input id="inputas1" type="text" value="">
+    <br>
+    <label for="Atstumas">Atstumas: </label>
+    <input id="inputas2" type="text" value="">
+    <br>
+    <label for="Laikas">Laikas: </label>
+    <input id="inputas3" type="text" value="">
+</form>
+    <button id="main_button" onclick="musuFunkcija()">Saugoti</button>
+    <table>
+        <thead>
+                <th>Data</th>
+                <th>Numeris</th>
+                <th>Atstumas</th>
+                <th>Laikas</th>
+                <th></th>
+        </thead>
+        <tbody id="lentele">
+
+        </tbody>
+    </table>
+    <div class="modalo_fonas">
+        <div class="vidinis_modalas">
+            <h2>Ar tikrai norite trinti?</h2>
+            <button id="trinti">Taip</button>
+            <button id='netrinti'>Ne</button>
+        </div>
+    </div>
+<div class="kitas_modalas">
+    <div class="kitas_vidinis_modalas">
+        <h2>Redaguokite duomenis</h2>
+        <label for="Data">Data:</label>
+        <input id="edit-data" type="text" value="">
+        <br>
+        <label for="Numeris">Numeris:</label>
+        <input id="edit-numeris" type="text" value="">
+        <br>
+        <label for="Atstumas">Atstumas: </label>
+        <input id="edit-atstumas" type="text" value="">
+        <br>
+        <label for="Laikas">Laikas: </label>
+        <input id="edit-laikas" type="text" value="">
+        <br>
+        <br>
+        <button id="redaguoti">Patvirtinti</button>
+        <button id='neredaguoti'>Atsaukti</button>
+    </div>
+</div>
+   
+    <script src="main.js"></script>
+</body>
+</html>
